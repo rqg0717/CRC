@@ -38,5 +38,7 @@ typedef unsigned long     crc;
 void  crcTableGen(void);
 
 crc crcCompute(const unsigned char * msg, const unsigned int nBytes);
+unsigned short crc16(const char * msg, int len);
+unsigned long crc32(const char * msg, int len);
 
 #endif /* _crc_h */
