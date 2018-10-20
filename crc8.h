@@ -13,6 +13,6 @@
 typedef int                 BOOL;
 typedef unsigned char       BYTE;
 
-BOOL  crc(BYTE const msg[]);
+BOOL  crc(BYTE const msg[], int nBytes);
 
 #endif /* _crc8_h */
