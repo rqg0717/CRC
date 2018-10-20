@@ -140,7 +140,7 @@ crc crcCompute(const unsigned char * msg, const unsigned int nBytes)
     return (remainder ^ FINAL_XOR_VALUE);
 }
 
-unsigned short crc16(const char * msg, int len) {
+/* unsigned short crc16(const char * msg, int len) {
     int i;
     unsigned short res = 0;
     for (i = 0; i < len; i++)
@@ -159,4 +159,4 @@ unsigned long crc32(const char * msg, int len)
     }
 
     return labs(res ^ 0xFFFFFFFF);
-}
+}*/
