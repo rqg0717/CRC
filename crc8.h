@@ -11,6 +11,7 @@
 #endif
 
 typedef int                 BOOL;
+typedef unsigned char       BYTE;
 
 BOOL  crc(unsigned char const msg[]);
 
