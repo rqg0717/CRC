@@ -10,9 +10,8 @@
 #define TRUE                1
 #endif
 
-typedef int                 BOOL;
 typedef unsigned char       BYTE;
 
-BOOL  crc(BYTE const msg[], int nBytes);
+BYTE crc(BYTE const msg[], int nBytes);
 
 #endif /* _crc8_h */
